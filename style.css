@@ -33,8 +33,10 @@ body {
     padding: 8px;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+
+    gap: 8px;
 }
 
 .stat-item {
@@ -67,3 +69,8 @@ body {
     display: block;
     text-align: center;
 }
+/*
+a.button {
+    background-color: black;
+}
+*/
